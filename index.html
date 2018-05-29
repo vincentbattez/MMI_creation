@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20/20</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        
+        <meta charset="UTF-8" />
+        <meta name="description" content="Un DM de Web trop facile !" />
+        <meta name="keywords" content="DM,web,facile,cool"/>
+        <meta name="viewport" content="width=device-width" />
+        
+        <script type="text/javascript" src="JQuery/jquery-1.11.3.min.js" ></script>
+        <script type="text/javascript" src="JQuery/script.js"></script>
+        
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <!--FavIcon-->
+        
+    <!-- Add fancyBox -->
+        <link rel="stylesheet" href="JQuery/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="JQuery/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    </head>
+    <body>           
+<!-- <NAV> -->
+        <nav>
+            <div class="w1000p">
+                <ul id="nav">
+                    <li><a href="index.html" name="accueil" id="accueil"><img alt="logo" src="images/logo.png"/></a></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#competence" class="services">Services</a>
+                        <ul class="services nav_hover">
+                            <img alt="fleche" src="images/fleche-nav.png"/>
+                            <li><a href="#">Web Desgin</a></li>
+                            <li><a href="#">Wordpress Design</a></li>
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">Social Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#realisation">Réalisations</a></li>
+                    <li><a href="#contact">Contactez-nous</a></li>
+                    <li>
+                        <form action ="#" method="post">
+                            <input type="search" id="search" placeholder="Recherche"/>
+                            <input type="submit" id="search_button" value=" "/>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<!-- </NAV> -->
+        
+<!-- <ASIDE> -->
+        <a href="#accueil" title="Haut de la page">
+            <aside></aside>
+        </a>
+<!-- </ASIDE> -->    
+        
+        
+<!-- <BANNER> -->        
+        <header id="banner">
+            <a name="banner"></a>
+            <div class="w1000p">
+                <a href="#"><button src="#">En savoir +</button></a>
+                <h1>Vous avez un besoin ? <br/> Nous sommes la solution !</h1>
+                <img alt="PC iphone" src="images/banner.png"/>
+                
+                <div class="slideshow">
+                    <ul id="PCimg">
+                        <li><img alt="PC iphone" src="images/PCimage1.png"/></li>
+                        <li><img alt="PC iphone" src="images/PCimage2.png"/></li>
+                        <li><img alt="PC iphone" src="images/PCimage3.png"/></li>
+                        <li><img alt="PC iphone" src="images/PCimage4.png"/></li>
+                    </ul>
+                </div>
+                
+                <div class="slideshow2">
+                    <ul id="IPHONEimg">
+                        <li><img alt="PC iphone" src="images/IPHONEimage1.png"/></li>
+                        <li><img alt="PC iphone" src="images/IPHONEimage2.png"/></li>
+                        <li><img alt="PC iphone" src="images/IPHONEimage3.png"/></li>
+                        <li><img alt="PC iphone" src="images/IPHONEimage4.png"/></li>
+                    </ul>
+                </div>
+                
+            </div>               
+        </header>
+<!-- </BANNER> -->
+        
+        
+        
+        
+ <!-- <COMPETENCE> -->        
+        <section id="competence">
+            <a name="competence"></a>
+            <div class="w1000p clearfix">
+                <article id="webD" class="m-l10">
+                    <h2 id="h2D">Web Design</h2>
+                    <img alt="logo web design" src="images/webdesign.png"/>
+                    <p>On a eu un super prof d'Intégration HTML, et on a de bonnes bases en créations graphique. Du coup, l'agence MMi Création est la meilleur agence du monde entier !</p>
+                    <p class="lien"><a href="#">En savoir plus</a></p>
+                </article>
+                
+                <article id="webM" class="m-r60 m-l60">
+                    <h2 id="h2M">Web Marketing</h2>
+                    <img alt="logo web Marketing" src="images/webmarketing.png"/>
+                    <p>Vos clients sont en demande de Buzz, de clics, de vues, de fans ? Tweet, Snap, Like, Référencement, SEO, sont des gros mots pour vous ? Pas de panique, on est là !</p>
+                    <p class="lien"><a href="#">En savoir plus</a></p>
+                </article>
+                
+                <article id="app" class="m-r10">
+                    <h2 id="h2A">Application mobile</h2>
+                    <img alt="logo Application mobile" src="images/mobileapp.png"/>
+                    <p>Parce que tout le monde à un smartphone, vous vous devez d'être dans la poche de vos clients ! Nous pouvons créer des applis pour chacun de vos besoin !</p>
+                    <p class="lien"><a href="#">En savoir plus</a></p>
+                </article>
+            </div>     
+        </section>
+<!-- </COMPETENCE> -->  
+        
+        
+        
+<!-- <REALISATION> -->         
+        <section id="realisation">
+            <a name="realisation"></a>
+            <div class="w1000p">
+                <h2 id="h2rea">Nos réalisations</h2>
+                <div id="image">
+                    <div class="flip">
+                        <div id="front_1"></div>
+                        <div id="back_1"> 
+                            <h2 class="back_h2">Fleurs</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a rel="gallery" class="fancybox" title="Fleurs" href="images/img1.jpg" ><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_2"></div>
+                        <div id="back_2"> 
+                            <h2 class="back_h2">Montagne</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img2.jpg" rel="gallery" class="fancybox" title="Montagne"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_3"></div>
+                        <div id="back_3"> 
+                            <h2 class="back_h2">Texas</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img3.jpg" rel="gallery" class="fancybox" title="Texas"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_4"></div>
+                        <div id="back_4"> 
+                            <h2 class="back_h2">Pyramide</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img4.jpg" rel="gallery" class="fancybox" title="Pyramide"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_5"></div>
+                        <div id="back_5"> 
+                            <h2 class="back_h2">Ville</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img5.jpg" rel="gallery" class="fancybox" title="Ville"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_6"></div>
+                        <div id="back_6"> 
+                            <h2 class="back_h2">Rivière</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img6.jpg" rel="gallery" class="fancybox" title="Rivière"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_7"></div>
+                        <div id="back_7"> 
+                            <h2 class="back_h2">Pont</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img7.jpg" rel="gallery" class="fancybox" title="Pont"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                    <div class="flip">
+                        <div id="front_8"></div>
+                        <div id="back_8"> 
+                            <h2 class="back_h2">Ruines</h2>
+                            <p class="back_p">Lorem ipsum olor site amet, concsecteur tur adispicr elit.</p>
+                            <a href="images/img8.jpg" rel="gallery" class="fancybox" title="Ruines"><button class="oeil"></button></a>
+                            <a href="#"><button class="link"></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+<!-- </REALISATION> -->  
+       
+        
+        
+<!-- <CONTACT> -->  
+        <section id="contact">
+            <a name="contact"></a>
+            <div class="w1000p">
+                <h2>Contactez-Nous !</h2>
+                <p>Si vous avez besoin de quelquechose; ou juste de prendre l'apéro ...</p>
+                <p class="m-t10 m-b35">Remplissez le formulaire ci-dessous, on tâchera de vous répondre rapidement !</p>
+                
+                
+                <form method="post" action="traitement.php">    
+                    <ul>
+                        <li><p> <label for= "nom">Votre nom:</label> </p></li>
+                        <li><input type="text" id="nom" name="nom"/></li>
+                        
+                        <li><p> <label for= "email">Votre adresse Email:</label> </p></li>
+                        <li><input type="email" id="email" name="email"/></li>
+                
+                        <li><p> <label for= "message">Votre Message:</label> </p></li>
+                        <li><textarea id="message" name="message" ></textarea></li>
+
+                        <li><input id="button" type="submit" value="Envoyer"/></li>
+                    </ul>  
+                </form>   
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7187.334727060573!2d2.809347660093474!3d50.43911575116868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2671190e96c659c0!2sIUT+de+LENS!5e0!3m2!1sfr!2sfr!4v1450375655739" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> 
+        </section>
+<!-- </CONTACT> -->
+        
+        
+<!-- <FOOTER> -->
+        <footer>
+            <div class="w1000p">
+                <div id="txt">
+                    <p>&copy; 2015 MMi Creation - tout droit réservé</p>
+                    <p>bon... d'accord c'est une fasse agence web, tout ceci n'est qu'une illusion !</p>
+                </div>
+                    <ul>
+                        <li id="fb"><a href="https://www.facebook.com/"><img alt="facebook" src="images/social-fb.png"/></a></li>
+                        <li id="ln"><a href="#"><img alt="ln" src="images/social-ln.png"/></a></li>
+                        <li id="tw"><a href="https://twitter.com/?lang=fr"><img alt="twitter" src="images/social-tw.png"/></a></li>
+                        <li id="pin"><a href="#"><img alt="pin" src="images/social-pin.png"/></a></li>
+                        <li id="o"><a href="#"><img alt="o" src="images/social-web.png"/></a></li>
+                        <li id="g+"><a href="https://plus.google.com/"><img alt="Google plus" src="images/social-gp.png"/></a></li>
+                    </ul>
+            </div>
+        </footer>
+<!-- </FOOTER> -->
+        
+    </body>
+</html>
